@@ -4,7 +4,7 @@ Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
 int count = 10;
 
-if ((num / 100) % count == 0){
+if ((num / 10 * count) % 10 == 0){
     Console.WriteLine($"Третьей цифры в числе {num} нет");
 }
 else{
